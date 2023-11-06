@@ -23,7 +23,7 @@ DURATION_LIMIT_MIN = int(
 SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )  
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001824002859"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002037012482"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "hina")
 BOT_USERNAME = getenv("BOT_USERNAME")
 OWNER = getenv("OWNER")
@@ -40,10 +40,10 @@ UPSTREAM_REPO = getenv(
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/stsp4"
+    "SUPPORT_CHANNEL", "https://t.me/Mlze1bot"
 )  
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP","https://t.me/vvinl"
+    "SUPPORT_GROUP","https://t.me/Mlze1bot"
 ) 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
 AUTO_LEAVE_ASSISTANT_TIME = int(
