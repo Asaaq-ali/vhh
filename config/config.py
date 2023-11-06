@@ -8,13 +8,13 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "28386628"))
-API_HASH = getenv("API_HASH", "32a678ce66443764aab2ad5cb2f5da74")
+API_ID = int(getenv("API_ID", "28450951"))
+API_HASH = getenv("API_HASH", "86ecdb94b4dade3baa295fa3d9459106")
 OWNER_NAME = getenv("OWNER_NAME", "gjqkp")
-OWNER_NyyyAME = getenv("OWNER_NyyyAME", "5900479364")
-BOT_USERNAME = getenv("BOT_USERNAME", "ms1tbot")
+OWNER_NyyyAME = getenv("OWNER_NyyyAME", "6218149232")
+BOT_USERNAME = getenv("BOT_USERNAME", "")
 ASSISTANT_NAME = getenv("ASSISTANT_USERNAME", "yp_hp")
-BOT_TOKEN = getenv("BOT_TOKEN", "5915163334:AAE6H8oyB_MJ_Uzr4kn3sfyfOPUuteb36ug")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "stsp4")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://belamriiyad7:iyad2009@cluster0.gitwp4w.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(
@@ -23,19 +23,19 @@ DURATION_LIMIT_MIN = int(
 SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )  
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001884920954"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Steve BOT")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001824002859"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "hina")
 BOT_USERNAME = getenv("BOT_USERNAME")
 OWNER = getenv("OWNER")
 NAME_BOT = getenv("NAME_BOT")
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5900479364").split())
+    map(int, getenv("OWNER_ID", "6218149232").split())
 )  
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/gjqkp1/hh",
+    "https://github.com/Asaaq-ali/vhh",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
